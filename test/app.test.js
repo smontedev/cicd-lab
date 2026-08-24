@@ -7,7 +7,7 @@ describe("API Data e Hora", () => {
 
     const response = await request(app).get("/");
 
-    expect(response.statusCode).toBe(200);
+    expect(response.statusCode).toBe(201);
 
   });
 
