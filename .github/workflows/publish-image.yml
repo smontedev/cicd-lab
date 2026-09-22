@@ -1,6 +1,8 @@
 name: Publicar imagem no GHCR
 
 on:
+  workflow_dispatch:
+
   push:
     tags:
       - "v*"
